@@ -1,0 +1,38 @@
+
+
+body{
+    background: hsla(0, 5%, 95%, 95%) border-box;
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+}
+.a h1{
+    font-size:5rem;
+    margin-bottom: 0;
+}
+.titleCaption{
+    font-size:1.5rem;
+}
+.b{
+    display:flex;
+    flex-wrap: wrap; /*push boxes onto the next line. 
+    instead of default :no-wrap; which forces all on one line.*/
+    justify-content: center;
+}
+.bBox{
+    flex:1 1 150px;
+    margin: 5px;
+}
+.image{
+    width: 450px;
+}
+
+.subtitle, .questions{
+   padding-top: 10px;
+   text-align: justify;
+}
+
+
+p{
+    font-size:1rem;
+}
+
